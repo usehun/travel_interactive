@@ -129,20 +129,20 @@
     let imgElem;
     for (let i = 0; i < sceneInfo[0].values.VideoImageCount; i++) {
       imgElem = new Image();
-      imgElem.src = `../pic/train/train_${i}.jpg`;
+      imgElem.src = `pic/train/train_${i}.jpg`;
       sceneInfo[0].objs.videoImages.push(imgElem);
     }
     let imgElem2;
     for (let i = 0; i < sceneInfo[2].values.VideoImageCount; i++) {
       imgElem2 = new Image();
-      imgElem2.src = `../pic/train_ani/${i + 1}.jpg`;
+      imgElem2.src = `pic/train_ani/${i + 1}.jpg`;
       sceneInfo[2].objs.videoImages.push(imgElem2);
     }
 
     let imgElem3;
     for (let i = 0; i < sceneInfo[3].values.ImageCount; i++) {
       imgElem3 = new Image();
-      imgElem3.src = `../pic/${i + 1}.jpg`;
+      imgElem3.src = `pic/${i + 1}.jpg`;
       sceneInfo[3].objs.images.push(imgElem3);
     }
   }
